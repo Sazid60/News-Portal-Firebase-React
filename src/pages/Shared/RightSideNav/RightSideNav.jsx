@@ -8,7 +8,7 @@ const RightSideNav = () => {
     return (
         <div>
             <div className="p-4 space-y-3 mb-6">
-                <h2 className='text-3xl font-bold'>Login With</h2>
+                <h2 className='text-3xl font-bold text-center'>Login With</h2>
                 <button className="btn btn-outline w-full"> <FaGoogle />
                     Login With Google
                 </button>
@@ -17,7 +17,7 @@ const RightSideNav = () => {
                 </button>
             </div>
             <div className="p-4 space-y-0 mb-6">
-                <h2 className='text-3xl font-bold mb-3'>Find Us On </h2>
+                <h2 className='text-3xl font-bold mb-3 text-center'>Find Us On </h2>
                 <a href="" className="p-4 flex items-center gap-2 text-sm border  rounded-t-lg">
                     <FaFacebook className="text-blue-600" />
                     <span>Facebook</span>
@@ -32,10 +32,10 @@ const RightSideNav = () => {
                 </a>
             </div>
             <div className="p-4 space-y-3 mb-6">
-                <h2 className='text-3xl font-bold mb-3'>Q-Zone </h2>
-                <img src={qZone1} alt="" />
-                <img src={qZone2} alt="" />
-                <img src={qZone3} alt="" />
+                <h2 className='text-3xl font-bold mb-3 text-center'>Q-Zone </h2>
+                <img className="w-full" src={qZone1} alt="" />
+                <img className="w-full" src={qZone2} alt="" />
+                <img className="w-full" src={qZone3} alt="" />
 
             </div>
         </div>
